@@ -1,0 +1,133 @@
+
+body {
+    color: rgb(19, 14, 14);
+    background: white;
+    font-family: "Roboto", sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased; }
+  
+  
+  h1, h2, h3 {
+    font-family: "playfair_displaybold", sans-serif;
+    color: #facd8a; }
+  
+  h4 {
+    font-family: "Roboto", sans-serif; }
+  
+  h1 {
+    font-size: 65px; }
+  
+  h2 {
+    font-size: 40px; }
+  
+  h3 {
+    font-size: 22px; }
+  
+  h4 {
+    font-size: 18px; }
+  
+  p {
+    font-family: "Roboto", sans-serif; }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+  }
+
+a:hover {
+  text-decoration: none;
+}
+
+
+  .padding-0 {
+    padding: 0; 
+  }
+  
+  .margin-0 {
+    margin: 0;
+  }
+  
+#portada{
+      background-image: url("../img/montes.jpg");
+      background-size: cover;
+      text-align: center;
+      height: 1000px;
+      margin-bottom: 20px;
+  }
+
+.fcc-btn {
+    background-color:#facd8a;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 15px;
+    text-decoration: none;
+  }
+
+.fcc-btn:hover {
+    color:black;
+    background-color:#facd8a;
+  }
+  
+  
+  
+.solid-btn {
+        background: transparent;
+        padding: 0;
+        border-color: transparent;
+        color: #afafaf;
+        text-transform: none; }
+        .solid-btn:hover {
+          background: transparent;
+          color: #facd8a; }
+      
+      .post-count {
+        padding: 3px 10px;
+        background: #171717; }
+
+  
+.blog {
+    background: white;
+    padding: 60px 0; }
+          
+          .blog-list-section {
+            position: relative;
+            margin-bottom: 60px; }
+          
+          .blog-content {
+            position: absolute;
+            right: -200px;
+            top: 50%;
+            max-width: 460px;
+            padding: 30px;
+            color:#facd8a;
+            background: #111111;
+            -webkit-transform: translateY(-50%);
+                    transform: translateY(-50%); }
+          
+          .blog-title {
+            margin-top: 0;
+            font-family: "Poppins", sans-serif;
+            color: #afafaf;
+            -webkit-transition: 0.5s;
+            transition: 0.5s;
+            line-height: 30px;
+            text-transform: uppercase;
+            padding-bottom: 28px; }
+            
+          .blog-description {
+            padding-bottom: 20px;
+            color: #afafaf; }
+          
+          .blog-img img {
+            max-width: 550px; }
+
+    /* Blog Right side Content */
+.blog-content-left .blog-content-area,
+.blog-content-left .blog-img {
+  float: right; }
+
+.blog-content-left .blog-content {
+  right: auto;
+  left: -200px; }
